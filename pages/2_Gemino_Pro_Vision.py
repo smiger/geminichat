@@ -83,4 +83,4 @@ if "app_key" in st.session_state:
                 st.markdown(prompt)
                 st.session_state.history_pic.append({"role": "user", "text": prompt})
             
-            show_message(prompt, resized_img, "Thinking...")
+            show_message(prompt, image, "Thinking...")
